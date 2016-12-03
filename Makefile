@@ -1,5 +1,5 @@
-
-DESTDIR=/usr/local
+DESTDIR ?= OBJ
+#/usr/local
 PREFIX=mbedtls_
 
 .SILENT:
